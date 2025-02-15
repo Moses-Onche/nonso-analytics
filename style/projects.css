@@ -72,3 +72,15 @@ figure {
     width: 90%;
     text-align: justify;
 }
+
+.chart-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: solid; */
+}
+
+.chart-images {
+    width: 40%;
+    margin: 5px;
+}
