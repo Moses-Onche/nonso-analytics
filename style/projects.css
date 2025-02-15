@@ -84,3 +84,16 @@ figure {
     width: 40%;
     margin: 5px;
 }
+
+.hidden-content {
+    display: none;
+}
+
+.read-more {
+    font-weight: 600;
+    margin-left: 38px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
