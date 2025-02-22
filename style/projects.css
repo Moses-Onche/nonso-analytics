@@ -102,7 +102,7 @@ figure {
 }
 
 .project-item {
-    width: 30%;
+    width: 40%;
 }
 
 .project-item:first-child {
@@ -122,7 +122,7 @@ figure {
     flex-wrap: wrap;
 }
 
-.chart-div img {
+.special-img {
     width: 50%;
     margin: 20px 0;
 }
