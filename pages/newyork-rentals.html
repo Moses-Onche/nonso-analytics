@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York City Rentals</title>
+    <link rel="stylesheet" href="../style/projects.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <h1 class="heading">New York City Rental Analysis</h1>
+    <figure>
+        <img class="header-image" src="../assets/newyork-0.jpg" alt="game controllers and accessories">
+        <figcaption>Life in New York City 
+            <a href="https://www.pexels.com/photo/a-woman-getting-out-of-a-taxi-5356287/">(source)</a>
+        </figcaption>
+    </figure>
+    
+    <!-- Introduction Section -->
+    <div class="page-section">
+        <div class="sub-heading">
+            <box-icon type='solid' name='bar-chart-alt-2'></box-icon>
+            <h2>Introduction</h2>
+        </div>
+        <div class="intro-project-div">
+            <div class="project-item">
+                <h3>Project Objective</h3>
+                <p>The client is a real estate agency trying to find its place in New York City. 
+                    The objective  is to analyse the New York City rental market  to identify trends 
+                    and insights that can inform both renters and property owners.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Problem Statement -->
+    <div class="page-section">
+        <div class="sub-heading">
+            <box-icon name='brain' type='solid'></box-icon>
+            <h2>Problem Statement</h2>
+        </div>
+        <p class="project-statement">GameCo’s Executives assumed that sales for the various geographic regions have 
+            stayed the same over time. GameCo Needs to understand which types of video games 
+            are most popular, identify main competitors, and  analyze sales trends across 
+            different regions to make informed decisions on game development and marketing 
+            strategies.</p>
+    </div>
+
+    <div class="page-section">
+        <div class="sub-heading">
+            <box-icon type='solid' name='pie-chart-alt-2'></box-icon>
+            <h2>Data Overview</h2>
+        </div>
+        <figure>
+            <img class="header-image" src="../assets/vgchartz-0.png" alt="data of games sold from 1980 to 2016">
+            <figcaption>Download the 
+                <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fimages.careerfoundry.com%2Fpublic%2Fcourses%2Fintro-to-data%2FE1%2Fvgsales.xlsx&wdOrigin=BROWSELINK">
+                    complete data set</a> (1980-2016)</figcaption>
+        </figure>
+        <ul>
+            <li>Data Source: <a href="https://www.vgchartz.com/">VGChartz</a> (1980-2016)</li>
+            <li>Scope: Sales figures for games with over 10,000 copies sold</li>
+            <li>Units: Sales represented in millions</li>
+        </ul>
+    </div>
+
+    <!-- Methodology Section -->
+    <div class="page-section">
+        <div class="sub-heading">
+            <box-icon type='solid' name='cog'></box-icon>
+            <h2>Methodology</h2>
+        </div>
+        <div class="project-statement">
+            <p>
+                I used data cleaning techniques to clean a ‘dirty’ version of the video game 
+                sales data. There are several blanks in the columns. I removed the rows 
+                containing data without Vital information like Name, Year, Publisher, 
+                and platform. Rows containing only value data do not meet the criteria for 
+                substantial analysis. I removed duplicates and handled missing values by 
+                correcting inaccuracies.
+            </p>
+            <h3>Skills and Tools</h3>
+            <div class="intro-project-div">
+                <div class="project-item">
+                    <ul>
+                        <li>Data sourcing</li>
+                        <li>Data transformation</li>
+                        <li>Exploratory analysis</li>
+                        <li>Geospatial analysis with Python</li>
+                        
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <ul>
+                        <li>Supervised and Unsupervised Machine Learning (Regression, Clustering)</li>
+                        <li>Time-series</li>
+                        <li>Tableau visualization</li>
+                        <li>Summarizing Data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Summary Statistics Section -->
+    <div class="page-section">
+        <div class="sub-heading">
+            <box-icon type='solid' name='bar-chart-square'></box-icon>
+            <h2>Summary Statistics</h2>
+        </div>
+        <div class="project-statement">
+            <p>
+                To analyze whether sales for the geographic regions (North America, Europe, Japan, 
+                and other regions) have stayed the same over time from 1980 to 2016, a time series 
+                analysis on the sales data (as-it-is) should first be performed. This time series 
+                analysis should act as a first-stage statistical method to use to examine patterns 
+                and trends in data over time. 
+            </p>
+            <figure>
+                <img class="header-image" src="../assets/summary-stats-0.png" alt="total regional sales">
+                <figcaption></figcaption>
+            </figure>
+            <h3>Charts</h3>
+            <div class="chart-div">
+                <img class="chart-images" src="../assets/market-trends-1.png" alt="a chart showing market trends">
+                <img class="chart-images" src="../assets/market-trends-2.png" alt="a chart showing market trends">
+                <img class="chart-images" src="../assets/market-trends-3.png" alt="a chart showing market trends">
+                <img class="chart-images" src="../assets/market-trends-4.png" alt="a chart showing market trends">
+            </div>
+            <h3>Insight and Findings</h3>
+            <ul>
+                <li>Popular Game Genres: Shooter and Action games are the most popular genres across all regions.
+                    Sports and Platform games also show significant popularity, especially in North America and Europe.
+                    Role-playing games are particularly popular in Japan.
+                 </li>
+                <li>
+                    Regional Sales Trends: North America consistently dominates the market with the highest sales 
+                    proportions. From 2008 to 2016, NA sales peaked in 2008 at 351.40 million units but showed a 
+                    declining trend, reaching 22.66 million units in 2016. Europe showed steady sales, with a peak
+                    in 2008 at 184.40 million units and a gradual decline to 26.75 million units in 2016.
+                    Japan had lower sales compared to NA and Europe, with a peak of 61.71 million units in 2009 
+                    and a decline to 13.65 million units in 2016. Other regions showed the least sales, peaking
+                    at 84.74 million units in 2008 and decreasing to 8.96 million units in 2016.
+                </li>
+            </ul>
+            <ul class="hidden-content">
+                <li>
+                    Japan had lower sales compared to NA and Europe, with a peak of 61.71 million units in 2009 
+                    and a decline to 13.65 million units in 2016. Other regions showed the least sales, peaking 
+                    at 84.74 million units in 2008 and decreasing to 8.96 million units in 2016.
+                </li>
+                <li>
+                    Competitive Landscape: Nintendo is the leading publisher across all regions, with the highest 
+                    sales volumes. Other significant competitors include Electronic Arts (EA) and Activision 
+                    Blizzard, particularly strong in North America and Europe.
+                </li>
+                <li>
+                    Market Dynamics: Sales data from 2008 to 2016 indicates shifting trends, with North America 
+                    and Europe showing declining sales, possibly due to market saturation or shifting consumer 
+                    preferences. Japan’s market shows a preference for role-playing games, which can be a niche 
+                    focus for GameCo.
+                </li>
+            </ul>
+            <span class="read-more"> Read more...</span>
+        </div>
+    </div>
+
+    <div class="page-section">
+        <div class="sub-heading">
+            <box-icon type='solid' name='check-square'></box-icon>
+            <h2>Recommendations</h2>
+        </div>
+        <div class="project-statement">
+            <h3>Focus on Popular Genres:</h3>
+            <p>Prioritize developing and marketing Shooter and Action games to capture a 
+                significant share of the popular genres. Consider creating Sports and Platform 
+                games to appeal to a broad audience in North America and Europe.</p>
+            <h3>Regional Marketing Strategies:</h3>
+            <p>In North America, focus on maintaining dominance in Shooter and Action genres. 
+                Invest in innovative marketing strategies to counteract the declining trend.
+                In Europe, tailor marketing campaigns to highlight popular genres like Shooter, 
+                Action, and Sports games.In Japan, develop and market Role-Playing games to 
+                cater to local preferences. Collaborate with local influencers to boost market presence.</p>
+            <h3>Competitive Positioning:</h3>
+            <p>Analyze strategies of top competitors like Nintendo, EA, and Activision Blizzard.</p>
+        </div>
+    </div>
+    <footer>
+        <span></span>
+    </footer>
+
+    <script src="../script/projects.js"></script>
+</body>
+</html>
