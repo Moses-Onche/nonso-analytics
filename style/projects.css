@@ -7,6 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -92,6 +94,10 @@ figure {
     padding: 1rem 4rem;
 }
 
+.page-section:last-child {
+    margin-bottom: 40px;
+}
+
 .sub-heading {
     font-size: 2.8rem;
     display: flex;
@@ -157,11 +163,21 @@ footer {
     background-color: black;
     color: white;
     bottom: 0;
-    left: 0;
-    margin: 0;
+    margin-top: 40px;
     width: 100%;
     padding: 20px;
     display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+footer div a {
+    margin: 0 10px;
 }
 
 @media (max-width: 600px) {
