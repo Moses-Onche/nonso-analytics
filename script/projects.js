@@ -19,13 +19,14 @@ hamLogo.addEventListener("click", () => {
     if (hamMenu.style.display === "flex") {
         hamMenu.style.display = "none";
     } else {
-        hamMenu.style.transition = "ease-in 1.5s";
+        hamMenu.style.backgroundColor = "#e9f8f9";
+        hamMenu.style.position = "absolute";
         hamMenu.style.top = "80px";
-        hamMenu.style.width = "100%"
+        hamMenu.style.width = "95%";
+        hamMenu.style.padding = "10px 40px";
         hamMenu.style.display = "flex";
         hamMenu.style.flexDirection = "column";
         hamMenu.style.alignItems = "flex-end";
-        hamMenu.style.textAlign = "right";
-        // hamMenu.style.border = "solid red";
+        hamMenu.style.boxShadow = "0px 1px 20px #d6f1f3";
     }
 })
