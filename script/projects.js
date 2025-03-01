@@ -19,11 +19,13 @@ hamLogo.addEventListener("click", () => {
     if (hamMenu.style.display === "flex") {
         hamMenu.style.display = "none";
     } else {
-        hamMenu.style.position = "absolute";
-        // hamMenu.style.backgroundColor = "#e9f8f9";
+        hamMenu.style.transition = "ease-in 1.5s";
         hamMenu.style.top = "80px";
+        hamMenu.style.width = "100%"
         hamMenu.style.display = "flex";
         hamMenu.style.flexDirection = "column";
-        hamMenu.style.justifyContent = "center";
+        hamMenu.style.alignItems = "flex-end";
+        hamMenu.style.textAlign = "right";
+        // hamMenu.style.border = "solid red";
     }
 })

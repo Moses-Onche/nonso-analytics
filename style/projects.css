@@ -223,13 +223,13 @@ footer div a {
         display: block;
     }
 
-    .ham-menu {
+    /* .ham-menu {
         display: flex;
         flex-direction: column;
         top: 50px;
         width: 100%;
         height: 50%;
-    }
+    } */
 
     .heading {
         font-size: 1.6rem;
