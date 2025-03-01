@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 8px;
+}
+
 .contact-header {
     margin: 0;
     width: 100%;
@@ -31,4 +35,55 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    margin: 20px 0 -10px 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-div {
+    font-size: 12px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    #footer-div {
+        width: 90%;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer div a {
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer-div {
+        width: 90%;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer div a {
+        margin: 0 2px;
+    }
 }
