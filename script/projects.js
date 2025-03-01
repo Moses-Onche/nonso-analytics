@@ -5,15 +5,17 @@ const hamLogo = document.getElementsByClassName("ham")[0].children[0];
 const hamMenu = document.getElementsByClassName("ham-menu")[0];
 console.log(hamMenu)
 
-readMore.addEventListener("click", () => {
-    if (hiddenContent.style.display == "block") {
-        hiddenContent.style.display = "none";
-        readMore.textContent = " Read more...";
-    } else {
-        hiddenContent.style.display = "block";
-        readMore.textContent = " Hide...";
-    }
-})
+if (readMore !== undefined) {
+    readMore.addEventListener("click", () => {
+        if (hiddenContent.style.display == "block") {
+            hiddenContent.style.display = "none";
+            readMore.textContent = " Read more...";
+        } else {
+            hiddenContent.style.display = "block";
+            readMore.textContent = " Hide...";
+        }
+    })
+}
 
 hamLogo.addEventListener("click", () => {
     if (hamMenu.style.display === "flex") {
