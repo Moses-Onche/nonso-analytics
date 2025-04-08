@@ -107,7 +107,19 @@ figure {
 .header-section {
     margin-top: 100px;
     width: 90%;
-    border: solid red;
+}
+
+.header-section > div {
+    display: flex;
+    margin-top: 30px;
+}
+
+.header-section > div > div {
+    width: 50%;
+}
+
+.header-section > div > img {
+    width: 50%;
 }
 
 .page-section {
