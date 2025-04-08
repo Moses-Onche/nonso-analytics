@@ -104,6 +104,12 @@ figure {
     border-radius: 14px;
 }
 
+.header-section {
+    margin-top: 100px;
+    width: 90%;
+    border: solid red;
+}
+
 .page-section {
     width: 90%;
     padding: 1rem 4rem;
