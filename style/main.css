@@ -261,6 +261,26 @@ footer div a {
         border-radius: 14px;
     }
 
+    .header-section {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .header-section > div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .header-section > div > div {
+        width: 100%;
+    }
+
+    .header-section > div > img {
+        width: 95%;
+        place-self: center;
+    }
+
     .page-section {
         width: 90%;
         padding: 1rem 2rem;
@@ -333,6 +353,26 @@ footer div a {
         margin-bottom: 10px;
         border: solid 2px #97e0e2;
         border-radius: 14px;
+    }
+
+    .header-section {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .header-section > div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .header-section > div > div {
+        width: 100%;
+    }
+
+    .header-section > div > img {
+        width: 95%;
+        place-self: center;
     }
 
     .page-section {
