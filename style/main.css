@@ -118,6 +118,10 @@ figure {
     width: 50%;
 }
 
+.header-section > div > div > p{
+    text-align: justify;
+}
+
 .header-section > div > img {
     width: 50%;
 }
@@ -356,7 +360,7 @@ footer div a {
     }
 
     .header-section {
-        margin-top: 50px;
+        margin-top: 80px;
         width: 90%;
     }
 
