@@ -138,6 +138,7 @@ figure {
     background: none;
     border: solid 1px #3b8588;
     color: #3b8588;
+    transition: all 0.6s;
 }
 
 .action-button:hover {
@@ -149,6 +150,7 @@ figure {
     margin-top: 40px;
     width: 90%;
     padding: 0;
+    margin-bottom: 40px;
 }
 
 .portfolio-section > h2 {
@@ -159,6 +161,7 @@ figure {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center; */
 }
 
 .portfolio-links {
@@ -169,6 +172,15 @@ figure {
 
 .portfolio-links:hover {
     text-decoration: none;
+}
+
+.project-tool {
+    width: max-content;
+    margin-top: 5px;
+    /* background: #d6f1f3; */
+    border: solid 0.5px black;
+    border-radius: 4px;
+    padding: 5px 7px;
 }
 
 .portfolio-item {
@@ -358,6 +370,10 @@ footer div a {
     .header-section > div > img {
         width: 95%;
         place-self: center;
+    }
+
+    .portfolio-item {
+        width: 380px;
     }
 
     .page-section {
