@@ -134,12 +134,10 @@ figure {
     margin-top: 30px;
     width: 90%;
     padding: 0;
-    /* border: solid red; */
 }
 
 .portfolio-section > h2 {
     margin: 5px;
-    /* border: solid red; */
 }
 
 .portfolio {
@@ -148,11 +146,18 @@ figure {
 }
 
 .portfolio-item {
-    /* border: solid red; */
     width: 400px;
     padding: 5px;
     display: flex;
     flex-direction: column;
+}
+
+.portfolio-item h5 {
+    margin: 20px 0;
+}
+
+.portfolio-item p {
+    margin: 0;
 }
 
 .page-section {
