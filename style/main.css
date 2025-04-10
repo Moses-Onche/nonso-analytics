@@ -158,6 +158,17 @@ figure {
 .portfolio {
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-links {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.portfolio-links:hover {
+    text-decoration: none;
 }
 
 .portfolio-item {
@@ -165,11 +176,15 @@ figure {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    transition: all 0.4s;
+    border-radius: 12px;
+    border: solid 0.5px #e9f8f9;
+    transition: all 0.6s;
 }
 
 .portfolio-item:hover {
-    transform: translateY(-5px);
+    background: #c4ebee;
+    border: solid 0.5px #d6f1f3;
+    cursor: pointer;
 }
 
 .portfolio-item h5 {
