@@ -126,6 +126,11 @@ figure {
     width: 50%;
 }
 
+.portfolio-section {
+    margin-top: 50px;
+    width: 90%;
+}
+
 .page-section {
     width: 90%;
     padding: 1rem 4rem;
