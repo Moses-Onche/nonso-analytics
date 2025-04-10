@@ -130,6 +130,13 @@ figure {
     width: 50%;
 }
 
+.action-button {
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: none;
+}
+
 .portfolio-section {
     margin-top: 30px;
     width: 90%;
