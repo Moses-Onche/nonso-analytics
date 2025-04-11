@@ -206,10 +206,10 @@ figure {
     width: 70%;
 }
 
-.connect span {
+.connect div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .action-button {
@@ -464,6 +464,15 @@ footer div a {
 
     .connect {
         width: 80%;
+    }
+
+    .connect div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .connect div div {
+        margin: 20px 0;
     }
 
     #footer-div {
