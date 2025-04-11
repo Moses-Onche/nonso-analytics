@@ -211,6 +211,21 @@ figure {
     justify-content: center;
 }
 
+.action-button {
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: none;
+    border: solid 1px #3b8588;
+    color: #3b8588;
+    transition: all 0.6s;
+}
+
+.action-button:hover {
+    background: #3b8588;
+    color: white;
+}
+
 footer {
     background-color: black;
     color: white;
