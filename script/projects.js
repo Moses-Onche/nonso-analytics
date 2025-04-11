@@ -32,3 +32,7 @@ hamLogo.addEventListener("click", () => {
         hamMenu.style.boxShadow = "0px 1px 20px #d6f1f3";
     }
 })
+
+if (window.innerWidth > 768) {
+    hamMenu.style.display = "none";
+}
