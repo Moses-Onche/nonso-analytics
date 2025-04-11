@@ -26,7 +26,7 @@ a {
     color: #3b8588;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
