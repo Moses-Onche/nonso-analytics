@@ -195,6 +195,22 @@ figure {
     margin: 30px;
 }
 
+.ho-line {
+    width: 150px;
+    margin: 20px;
+    border-top: 2px solid #3b8588;
+}
+
+.connect {
+    width: 60%;
+}
+
+.connect span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
     background-color: black;
     color: white;
