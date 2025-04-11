@@ -83,7 +83,7 @@ nav {
     border-radius: 4px;
 }
 
-#hire-me:hover {
+.hire-me:hover {
     text-decoration: none;
     background-color: #3b8588;
 }
