@@ -256,6 +256,68 @@ footer div a {
     margin: 0 10px;
 }
 
+/* #built-by {
+    padding: 6px;
+    border: solid white 1px;
+    border-radius: 6px;
+    cursor: pointer;
+
+} */
+
+.popup-container {
+    position: relative;
+    display: inline-block;
+}
+
+.popup {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+  }
+
+  .popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+
+  @media (hover: hover) {
+    .popup-container:hover .popup {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .popup.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #triggerBtn {
+    /* background: none;
+    color: white;
+    padding: 6px;
+    border: solid white 1px;
+    border-radius: 6px; */
+    /* cursor: pointer; */
+  }
+
 @media (max-width: 600px) {
     p, li {
         font-size: 14px;
@@ -383,6 +445,10 @@ footer div a {
 
     footer div a {
         margin: 0 2px;
+    }
+
+    .popup {
+        left: 300%;
     }
 }
 

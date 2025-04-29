@@ -3,7 +3,8 @@ const readMore = document.getElementsByClassName("read-more")[0];
 const CV = document.getElementById("cv-link");
 const hamLogo = document.getElementsByClassName("ham")[0].children[0];
 const hamMenu = document.getElementsByClassName("ham-menu")[0];
-console.log(hamMenu)
+const triggerBtn = document.getElementById('triggerBtn');
+const popup = document.getElementById('popupBalloon');
 
 if (readMore !== undefined) {
     readMore.addEventListener("click", () => {
@@ -36,3 +37,15 @@ hamLogo.addEventListener("click", () => {
 if (window.innerWidth > 768) {
     hamMenu.style.display = "none";
 }
+
+triggerBtn.addEventListener('click', (e) => {
+    if (window.matchMedia('(hover: none) and (pointer: coarse)').matches) {
+      popup.classList.toggle('show');
+      document.addEventListener('click', function hideOnClickOutside(event) {
+        if (!popup.contains(event.target) && event.target !== triggerBtn) {
+          popup.classList.remove('show');
+          document.removeEventListener('click', hideOnClickOutside);
+        }
+      });
+    }
+  });
